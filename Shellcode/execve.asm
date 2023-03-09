@@ -17,6 +17,6 @@ _start:
          push eax
          push ebx
          mov ecx, esp
-         mol al, 0x0b
+         mov al, 0x0b
          int 0x80
          
